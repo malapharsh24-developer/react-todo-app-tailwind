@@ -37,6 +37,7 @@ export default function Todo() {
   function handleDeleteTodo(id) {
     const todoAfterDelete = todoList.filter((todo) => todo.id != id);
     setTodoList(todoAfterDelete);
+    toast.success("Todo deleted successfully");
   }
   // handle todo status change
   function handleStatus(id) {
