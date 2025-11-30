@@ -1,16 +1,77 @@
-# React + Vite
+# React Todo App with TailwindCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **ReactJS Todo App** built using **TailwindCSS**. Features include creating, deleting, marking as complete/incomplete, and checking the status of todos with **toast notifications** using [react-toastify](https://fkhadra.github.io/react-toastify/).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Create new todos
+- Mark todos as **complete** or **incomplete**
+- Delete todos
+- Check status of todos
+- Toast notifications on actions
+- Fully responsive using **TailwindCSS**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [ReactJS](https://reactjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [React Toastify](https://fkhadra.github.io/react-toastify/)
+- JavaScript (ES6+)
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/<USERNAME>/react-todo-app-tailwind.git
+cd react-todo-app-tailwind
+```
+Install dependencies:
+```bash
+npm install
+```
+Run the app
+```bash
+npm start
+```
+The app should now be running at http://localhost:3000
+
+# Usage
+
+- Type a todo in the input field.
+
+- Click Add Todo to create it.
+
+- Click the Mark as Complete/Incomplete button to toggle status.
+
+- Click the trash icon to delete a todo.
+
+- Toast notifications appear for each action.
+
+  # Folder Structure
+react-todo-app-tailwind/
+├─ public/
+├─ src/
+│  ├─ components/
+│  │  ├─ Header.jsx
+│  │  ├─ List.jsx
+│  │  └─ TableHeader.jsx
+│  ├─ App.jsx
+│  └─ index.js
+├─ package.json
+├─ tailwind.config.js
+└─ README.md
+
+# Screenshots
+<img width="413" height="725" alt="image" src="https://github.com/user-attachments/assets/227b70f1-9c78-4272-933b-e96108f5e9aa" />
+<img width="419" height="747" alt="image" src="https://github.com/user-attachments/assets/82ad11b4-22cd-47a1-901f-dce43b37efb6" />
+<img width="425" height="743" alt="image" src="https://github.com/user-attachments/assets/050a97c5-de7e-4dbc-ad43-0588fa12f193" />
+
+
+
